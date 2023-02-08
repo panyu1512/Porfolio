@@ -17,7 +17,7 @@ export default function Header() {
                 scale: 1,
             }}
             transition={{
-                duration: 1
+                duration: 1.5
             }}
             className="flex flex-row items-center">
                 <SocialIcon 
@@ -53,7 +53,7 @@ export default function Header() {
                 scale: 1,
             }}
             transition={{
-                duration: 1
+                duration: 1.5
             }}
             className="flex flex-row items-center text-gray-300 cursor-pointer">
                 <SocialIcon
