@@ -1,11 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.jsx';
+import Hero from '../components/Hero.jsx';
 ---
 
 <Layout title="Kike's Portfolio">
 	<!-- Header -->
+	<Header client:load/>
 	<main>
-		<Header client:load/>
+		<section id="hero">
+			<Hero client:load/>
+		</section>
 	</main>
 </Layout>
