@@ -3,6 +3,13 @@ import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 
 export default function Header() {
+    const SOCIALMEDIA = {
+        linkedin: 'https://www.linkedin.com/in/enrique-ferrer-agius-05844a217/',
+        github: 'https://github.com/panyu1512',
+        twitter: 'https://twitter.com/kike20ferrer',
+        instagram: 'https://www.instagram.com/kiikeferrer/',
+    }
+
     return (
         <header className="sticky top-0 p-5 flex items-start justify-between opacity-90 max-w-7xl mx-auto z-20 xl:items-center">
             <motion.div 
@@ -20,30 +27,15 @@ export default function Header() {
                 duration: 1.5
             }}
             className="flex flex-row items-center relative overflow-hidden">
-                <SocialIcon 
-                    url="https://www.linkedin.com/in/enrique-ferrer-agius-05844a217/"
-                    fgColor="#F7AB04"
-                    bgColor="transparent"
-                    className='hover:-translate-y-1 hover:scale-110 duration-300'
-                />
-                <SocialIcon 
-                    url="https://github.com/panyu1512"
-                    fgColor="#F7AB04"
-                    bgColor="transparent"
-                    className='hover:-translate-y-1 hover:scale-110 duration-300'
-                />
-                <SocialIcon 
-                    url="https://twitter.com/kike20ferrer"
-                    fgColor="#F7AB04"
-                    bgColor="transparent"
-                    className='hover:-translate-y-1 hover:scale-110 duration-300'
-                />
-                <SocialIcon 
-                    url="https://www.instagram.com/kiikeferrer/"
-                    fgColor="#F7AB04"
-                    bgColor="transparent"
-                    className='hover:-translate-y-1 hover:scale-110 duration-300'
-                />
+                {Object.entries(SOCIALMEDIA).map(([key, value]) => (
+                    <SocialIcon
+                        key={key}
+                        url={value}
+                        fgColor="#F7AB04"
+                        bgColor="transparent"
+                        className='hover:-translate-y-1 hover:scale-110 duration-300'
+                    />
+                ))}
             </motion.div>
             <motion.div
             initial={{
