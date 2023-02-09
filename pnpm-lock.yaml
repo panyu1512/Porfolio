@@ -12,7 +12,6 @@ specifiers:
   react: ^18.0.0
   react-dom: ^18.0.0
   react-simple-typewriter: ^5.0.1
-  react-social-icons: 5.15.0
   tailwindcss: ^3.0.24
 
 dependencies:
@@ -27,7 +26,6 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-simple-typewriter: 5.0.1_biqbaboplfbrettd7655fr4n2y
-  react-social-icons: 5.15.0_react@18.2.0
   tailwindcss: 3.2.4
 
 packages:
@@ -2925,14 +2923,6 @@ packages:
       sisteransi: 1.0.5
     dev: false
 
-  /prop-types/15.8.1:
-    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react-is: 16.13.1
-    dev: false
-
   /property-information/6.2.0:
     resolution: {integrity: sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==}
     dev: false
@@ -2956,10 +2946,6 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-is/16.13.1:
-    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: false
-
   /react-simple-typewriter/5.0.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==}
     engines: {node: '>=14'}
@@ -2969,15 +2955,6 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-    dev: false
-
-  /react-social-icons/5.15.0_react@18.2.0:
-    resolution: {integrity: sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ==}
-    peerDependencies:
-      react: 15.x.x || 16.x.x || 17.x.x || 18.x.x
-    dependencies:
-      prop-types: 15.8.1
-      react: 18.2.0
     dev: false
 
   /react/18.2.0:
