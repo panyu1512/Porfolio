@@ -2,14 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.jsx';
 import Hero from '../components/Hero.jsx';
+import About from '../components/About.jsx';
 ---
 
 <Layout title="Kike's Portfolio">
 	<!-- Header -->
 	<Header client:load/>
 	<main>
-		<section id="hero">
+		<section id="hero" class="snap-start">
 			<Hero client:load/>
+		</section>
+		<section id="about" class="snap-center">
+			<About client:load/>
 		</section>
 	</main>
 </Layout>
