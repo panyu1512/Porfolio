@@ -4,7 +4,6 @@ specifiers:
   '@astrojs/react': ^2.0.2
   '@astrojs/tailwind': ^3.0.1
   '@astrojs/vercel': ^3.0.1
-  '@react-icons/all-files': 4.1.0
   '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
   astro: ^2.0.8
@@ -18,7 +17,6 @@ dependencies:
   '@astrojs/react': 2.0.2_fxtgt6bjwd6p4cwoordejim2zi
   '@astrojs/tailwind': 3.0.1_nzhaul33q55wvpvnukdgx72gje
   '@astrojs/vercel': 3.0.1_astro@2.0.8
-  '@react-icons/all-files': 4.1.0_react@18.2.0
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   astro: 2.0.8
@@ -768,14 +766,6 @@ packages:
     dependencies:
       deepmerge: 4.3.0
       escalade: 3.1.1
-    dev: false
-
-  /@react-icons/all-files/4.1.0_react@18.2.0:
-    resolution: {integrity: sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /@rollup/pluginutils/4.2.1:
