@@ -13,9 +13,9 @@ export default function About() {
                 duration: 1.5,
             }}
         >
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">About</h3>
+            <h3 className="md:absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">About</h3>
             <motion.img
-                className='-mb-20 md:mb-0 flex-shrink-0 w-64 h-64 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] sm:mt-[450px] sm:mb-[60px] md:mt-[300px] lg:mt-[200px] xl:mt-[100px] 2xl:mt-[50px]]'
+                className='md:mb-0 flex-shrink-0 w-64 h-64 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] sm:mt-[450px] sm:mb-[60px] md:mt-[300px] lg:mt-[200px] xl:mt-[100px] 2xl:mt-[50px]]'
                 initial={{
                     x: -200,
                     opacity: 0,
