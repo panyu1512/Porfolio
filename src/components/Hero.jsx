@@ -21,7 +21,7 @@ export default function Hero() {
                 alt='profile_picture' 
             />
             <div className='z-20'>
-                <h2 className='text-1xl uppercase text-gray-500 tracking-[20px] min-[320px]:tracking-[6px]'>Palma de Mallorca</h2>
+                <h2 className='text-1xl uppercase text-gray-500 md:tracking-[20px] min-[320px]:tracking-[6px]'>Palma de Mallorca</h2>
                 <h1 className='text-2xl md:text-5xl lg:text-6xl font-semibold md:px-10'>
                     <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#F7AB04'/>
